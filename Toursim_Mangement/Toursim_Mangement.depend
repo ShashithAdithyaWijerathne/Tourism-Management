@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1575451157 source:e:\c program\toursim_mangement\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
