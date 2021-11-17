@@ -35,9 +35,9 @@ char currentuser[100];
 
 int main()
 {
-    printf("\t\t\t_________________________________________\n");
+
     printf("\t\t\t==== || TOURISM MANAGEMENT SYSTEM || ====\n");
-    printf("\t\t\t_________________________________________\n");
+
     user *h=NULL;
     int ch1,ch2;
     h=InitializeList(h);
@@ -73,9 +73,9 @@ int main()
         else if(currentstate==loggedin)
         {
         system("CLS");
-        printf("\n\t\t\t\t_____________________________");
+
 		printf("\n\t\t\t\t||TOURISM MANAGEMENT SYSTEM||");
-		printf("\n\t\t\t\t_____________________________\n");
+
             printf("\n\t\t\t\tBook Package    - [1]\n\t\t\t\tCheck Ticket    - [2]\n\t\t\t\tPrint Ticket    - [3]\n\t\t\t\tCancel Ticket   - [4]\n\t\t\t\tChange Password - [5]"
                    "\n\t\t\t\tLogout User     - [6]\n\t\t\t\tLocations       - [7]\n\t\t\t\tExit            - [8]\n");
             scanf("%d",&ch2);
